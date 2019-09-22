@@ -1,0 +1,17 @@
+<br><br><br>
+
+<div class="ui placeholder segment">
+  <div class="ui one column very relaxed stackable grid">
+    <div class="column center">
+      <h1 class="ui blue floated header">Intercom Dashboard</h1>
+        <br><br>
+          <% if logged_in? %>
+            <h3><%= link_to 'Log out', logout_path, method: :delete %></h3>
+          <% else %>
+            <h3><%= link_to 'Log in', login_path %></h3>
+            <h3><%= link_to 'Signup', signup_path %></h3>
+          <% end %>
+      <p></p>
+    </div>
+  </div>
+</div>
