@@ -1,6 +1,6 @@
 # README
 
-Just run on localhost - Will setup a heroku http sample endpoint. 
+Just run on localhost  Will setup a heroku http sample endpoint. 
 
 This app gives the user an idea about using Intercoms /users API endpoint to retrieve a list of users and display them on dashboard. 
 https://developers.intercom.com/intercom-api-reference/reference#users
