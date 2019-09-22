@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just run on localhost - Will setup a heroku http sample endpoint. 
 
-Things you may want to cover:
+This app gives the user an idea about using Intercoms /users API endpoint to retrieve a list of users and display them on dashboard. 
 
-* Ruby version
+It also shows a how to use full rails authentication using a salted authetication system with the bycrypt gem and password_digest. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The UI framework used is Semantic UI: https://semantic-ui.com/
